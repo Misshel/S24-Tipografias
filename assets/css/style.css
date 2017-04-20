@@ -1,22 +1,26 @@
 .box{
   font-family: 'Roboto', sans-serif;
   width: 220px;
-  height: 270px;
+  height: 291px;
   box-shadow: 8px 10px 14px -8px #CECECE;
   float: left;
   text-align: center;
   background-color: #F4F1F1;
   padding-top: 30px;
-  margin: 5px;
+  margin: 14px;
   -webkit-transition: all ls ease;
   -moz-transition: all ls ease;
   -o-transition: all ls ease;
   transition: all ls ease;
 }
 
+.contenedor{
+  padding: 12%;
+}
+
 h2{
   font-family: 'Playfair Display', serif;
-  color: #777777;
+  color: #4180b7;
 }
 
 .box:hover{
@@ -26,4 +30,15 @@ h2{
   -webkit-transform: scale(1.1);
   color: #8C8F98;
   -webkit-transition: all .0.5s ease-in-out;
+}
+
+span{
+  font-size: 40px;
+  color: dodgerblue;
+}
+
+p{
+  text-align: justify;
+  color: #5caaad;
+  margin: 14px;
 }
